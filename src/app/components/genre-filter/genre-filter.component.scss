@@ -1,0 +1,30 @@
+.genres-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    background-color: #141414;
+    border-radius: 10px;
+  }
+  
+  .genre {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    user-select: none;
+    
+    &:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+    
+    &.selected {
+      background-color: #e50914; /* Netflix red */
+      color: #fff;
+    }
+  }
+  
