@@ -1,27 +1,26 @@
-# MovieListApp
+# Movie Mania App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.13.
+## Description
 
-## Development server
+The Movie mania App is an Angular application that displays a list of movies fetched from The Movie Database (TMDb). Users can filter movies by genre, and the app features infinite scrolling to load movies from previous or next years as the user scrolls through the list. The design is inspired by popular streaming platforms with a responsive layout.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Features
 
-## Code scaffolding
+- Movie Display: Movies are displayed in descending order of popularity, with details including title, genre, cast, director, and a short description.
+- Genre Filtering: Users can filter movies by genre. The genres are fetched from the TMDb API.
+- Infinite Scroll: Smooth scrolling loads movies from previous years when scrolling up and from subsequent years when scrolling down.
+- Responsive Design: The app is mobile-friendly with a layout that adjusts seamlessly to different screen sizes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Prerequisites
 
-## Build
+- Node.js (version 12.x or higher)
+- npm (version 6.x or higher)
+- Angular CLI (version 12.x or higher)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## To run the application locally
 
-## Running unit tests
+- run npm install in command line
+- run ng serve
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You can access it in http://localhost:4200/
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
